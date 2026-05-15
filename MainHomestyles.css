@@ -1,0 +1,315 @@
+body {
+    color: white;
+    background: rgb(0, 0, 0);
+    z-index: -999;
+}
+
+.backbodyblock{
+    width: 99.6%;
+    height: 12.3%;
+    position: absolute;
+    z-index: -1;
+    background: rgba(0, 47, 255, 0.986);
+    filter: blur(450px);
+}
+
+#container1{
+    background: rgb(0, 0, 0);
+    width: 100.9%; 
+    height: 75px;
+    display: flex;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 15px;
+}
+
+.infosoffcontainer1{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 22px;
+    margin-left: 8.7%;
+}
+.infosoffcontainer1:hover{
+    transition: 0.5s;
+    color: rgb(248, 5, 5);
+}
+.infosoffcontainer1::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: red;
+    display: flex;
+}
+.infosoffcontainer1:hover::after{
+    content: '';
+    display: flex;
+    transition: width 0.5s;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    height: 2px;
+}
+
+#windowInformation{
+    content: '';
+    position: absolute;
+    margin-left: 32%;   
+    height: 1500px;
+    width: 600px;
+    background: transparent;
+    z-index: 100;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.5s ease-in-out;
+}
+#windowInformation.open{
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    background: rgb(0, 0, 0);
+    max-height: 750px;
+    max-width: 600px;
+    margin-top: 75px;
+}
+#informationTHEwindow{
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+.contacttittles {
+    font-size: 25px;
+    line-height: 25px;
+    color: blue;
+}
+.linkContact{
+    font-size: 20px;
+    color: red;
+    
+}
+h3{
+    font-size: 50px;
+}
+
+#textcenter{
+    border-radius: 35px;
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 600px;
+    margin-top: 7%;
+    margin-left: 35%;
+}
+#textC{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 70px;
+}
+#infosuser{
+    margin-top: 50px;
+    margin-left: 35%;
+    width: 500px;
+    height: 900px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: pink;
+}
+#nameofuser{
+    width: 450px;
+    height: 40px;
+    font-size: 17px;
+    background: black;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    text-align: center;
+}
+#emailuser{
+    width: 450px;
+    height: 40px;
+    font-size: 17px;
+    background: black;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    text-align: center;
+}   
+#passworduser{
+    width: 450px;
+    height: 40px;
+    font-size: 17px;
+    background: black;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    text-align: center;
+}
+#yes{
+    width: 450px;
+    height: 50px;
+    font-size: 17px;
+    background: black;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+#alert{
+    color: white;
+    line-height: 50px;
+    font-size: 15px;
+    margin-top: 55px;
+    margin-left: 115px;
+    position: absolute;
+}
+.camp1{
+    margin-top: 5px;
+    margin: 20px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.camp2{
+    margin-top: 50px;
+    margin: 50px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.camp3{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.helpuser{
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+#mainimg{
+    margin-top: 40px;
+    margin-left: 35%;
+    width: 500px;
+    height: 1850px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#img1{
+    position: relative;
+    margin-left: -2%;
+}
+.inforgroup{
+    position: relative;
+    margin: 50px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    margin-top: -15px;
+    display: flex;
+}
+.link1{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-left: 10%;
+    display: flex; 
+}
+a{
+    color: red;
+}
+#extras{
+    border-radius: 15px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 3%;
+    width: 99.3%;
+    height: 75px;
+}
+.team{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 22px;
+    margin-left: 8.7%;
+}
+
+#extras {
+    width: 99.1%;
+    overflow: hidden; 
+    background: black; 
+}
+
+.team {
+    display: flex;
+    width: max-content; 
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 22px;
+    margin-left: 8.7%;
+    animation: rollnames 15s linear infinite;
+}
+
+.team span {
+    padding-right: 50px; 
+    white-space: nowrap;
+}
+
+.team:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes rollnames {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-30%); 
+    }
+}
+
+.backbodyblock2{
+    position: absolute;
+    z-index: -999;
+    width: 99.6%;
+    height: 9%;
+    background: rgba(0, 47, 255, 0.986);
+    filter: blur(450px);
+    bottom: -290%;
+}
+
+#reversemode{
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    line-height: 15px;
+    font-size: 30px;
+    width: 117px;
+    height: 30px;
+    margin-left: 250px;
+    padding:1px;
+}
